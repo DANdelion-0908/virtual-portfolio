@@ -1,0 +1,16 @@
+.card {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 60em;
+    flex-direction: column;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: rgb(2, 0, 36);
+    color: white;
+}
+
+.title {
+    font-size: 2em;
+    margin-top: 2em;
+}
