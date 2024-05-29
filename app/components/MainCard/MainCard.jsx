@@ -13,10 +13,10 @@ const MainCard = () => {
       "image": "imgs/Genshin_ex.png",
       "link": "https://github.com/DANdelion-0908/genshin_excellent.git",
       "techs": [
-        "/techs/next.png",
-        "/techs/react.png",
-        "/techs/javascript.png",
-        "/techs/css.png"
+        "techs/next.png",
+        "techs/react.png",
+        "techs/javascript.png",
+        "techs/css.png"
       ]
     },
 
@@ -26,8 +26,8 @@ const MainCard = () => {
       "image": "imgs/js_only.png",
       "link": "https://github.com/DANdelion-0908/JavaScript-Only.git",
       "techs": [
-        "/techs/javascript.png",
-        "/techs/css.png"
+        "techs/javascript.png",
+        "techs/css.png"
       ]
     },
 
@@ -37,7 +37,7 @@ const MainCard = () => {
       "image": "imgs/simulator.png",
       "link": "https://github.com/DANdelion-0908/Problema5_Parcial3.git",
       "techs": [
-        "/techs/python.png",
+        "techs/python.png",
       ]
     },
 
@@ -47,9 +47,9 @@ const MainCard = () => {
       "image": "imgs/sabor.png",
       "link": "https://github.com/chuy-zip/proyecto2_BD1.git",
       "techs": [
-        "/techs/javascript.png",
-        "/techs/css.png",
-        "/techs/html.png",
+        "techs/javascript.png",
+        "techs/css.png",
+        "techs/html.png",
         "techs/postgresql.svg"
       ]
     },
@@ -60,7 +60,7 @@ const MainCard = () => {
       "image": "imgs/copython.png",
       "link": "https://github.com/chuy-zip/Proyecto_PPM_Copython.git",
       "techs": [
-        "/techs/kotlin.png"
+        "techs/kotlin.png"
       ]
     }
   ]
