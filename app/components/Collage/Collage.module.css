@@ -13,3 +13,16 @@
         font-size: 2em;
     }
 }
+
+.git {
+    transition: transform 0.5s;
+}
+
+.git:hover {
+    transform: scale(1.1);
+}
+
+.git:active {
+    transition: transform 0.1s;
+    transform: scale(0.9);
+  }
