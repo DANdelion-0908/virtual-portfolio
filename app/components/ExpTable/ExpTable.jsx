@@ -7,7 +7,7 @@ const ExpTable = () => {
         <h1 className={styles.title}>Experiencia trabajando con distintas tecnologías</h1>
 
         <div className="overflow-x-auto w-full max-w-4xl overflow-hidden">
-          <table className="table-md table-zebra bg-neutral rounded-xl mx-auto">
+          <table className="table-lg table-zebra bg-neutral rounded-xl mx-auto">
             <thead>
               <tr>
                 <th></th>

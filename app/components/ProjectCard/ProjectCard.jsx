@@ -1,4 +1,5 @@
 import React from 'react'
+import TechAvatar from '../TechAvatar/TechAvatar'
 
 const ProjectCard = ({ projects }) => {
   return (
@@ -8,6 +9,7 @@ const ProjectCard = ({ projects }) => {
             <div className="card-body">
               <h2 className="card-title">{project.title}</h2>
               <p>{project.description}</p>
+              <TechAvatar techs={project.techs}/>
               <div className="card-actions justify-end">
                 <a href={project.link} target='blank'>
                   <button className="btn hover:bg-accent">Repositorio GitHub</button>

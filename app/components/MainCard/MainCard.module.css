@@ -3,7 +3,6 @@
     height: auto;
     position: absolute;
     margin-top: 100vh;
-    flex-direction: column;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     background-color: rgb(2, 0, 36);
@@ -13,4 +12,18 @@
 .title {
     font-size: 2em;
     margin-top: 2em;
+}
+
+.achievements {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgs {
+    width: 35%;
+    margin: 5%;
 }

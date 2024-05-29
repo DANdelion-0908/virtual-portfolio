@@ -65,6 +65,12 @@ const MainCard = () => {
     }
   ]
 
+  const achievements = [
+    "/imgs/diploma.png",
+    "/imgs/robot.jpg",
+    "/imgs/title.png"
+  ]
+
   return (
     <div className={`${styles.card} flex flex-col items-center justify-center min-h-screen`}>
       {<MyHero />}
@@ -74,7 +80,16 @@ const MainCard = () => {
       <h1 className={styles.title}><strong>Proyectos</strong></h1>
 
       {<ProjectCard projects={projects} />}
+
+      <h1 className={styles.title}><strong>Méritos</strong></h1>
     
+      <div className={styles.achievements}>
+        {achievements.map((achievement, index) => {
+          return(
+              <img key={index} className={styles.imgs} src={achievement} alt="Imagen del mérito" />
+          )
+        })}
+      </div>
     </div>
   )
 }
