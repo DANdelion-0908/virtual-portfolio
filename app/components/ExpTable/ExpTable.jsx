@@ -59,6 +59,36 @@ const ExpTable = () => {
                 <td>PostgreSQL</td>
                 <td><progress class="progress progress-primary w-56" value="80" max="100"></progress></td>
               </tr>
+              <tr>
+                <td>10</td>
+                <td>React</td>
+                <td><progress class="progress progress-primary w-56" value="70" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Next.js</td>
+                <td><progress class="progress progress-primary w-56" value="50" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Node.js</td>
+                <td><progress class="progress progress-primary w-56" value="60" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Git</td>
+                <td><progress class="progress progress-primary w-56" value="80" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Express.js</td>
+                <td><progress class="progress progress-primary w-56" value="60" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Vite.js</td>
+                <td><progress class="progress progress-primary w-56" value="60" max="100"></progress></td>
+              </tr>
             </tbody>
           </table>
         </div>

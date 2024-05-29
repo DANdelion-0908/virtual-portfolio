@@ -16,9 +16,44 @@ const MainCard = () => {
         "techs/next.png",
         "techs/react.png",
         "techs/javascript.png",
-        "techs/css.png"
+        "techs/css.png",
+        "techs/node.png"
       ]
     },
+
+     {
+      "title": "MK-Publicidad",
+      "description": "Proyecto de tienda en línea en desarrollo para una empresa que se dedida a la venta de productos y accesorios personalizados.",
+      "image": "imgs/mk.png",
+      "link": "https://github.com/Diegoval-Dev/MK-Publicidad.git",
+      "techs": [
+        "techs/vite.png",
+        "techs/react.png",
+        "techs/express.png",
+        "techs/node.png",
+        "techs/javascript.png",
+        "techs/html.png",
+        "techs/css.png",
+        "techs/docker.png",
+      ]
+     },
+
+     {
+      "title": "Dan's Blog",
+      "description": "Blog que contiene posts sobre mis videojuegos favoritos de todos los tiempos. Tiene como características la implementación de rutas para usuarios y administradores, área de CRUD, entre otras.",
+      "image": "imgs/dans_blog.png",
+      "link": "https://github.com/DANdelion-0908/project_blog.git",
+      "techs": [
+        "techs/vite.png",
+        "techs/react.png",
+        "techs/express.png",
+        "techs/node.png",
+        "techs/javascript.png",
+        "techs/html.png",
+        "techs/css.png",
+        "techs/docker.png",
+      ]
+     },
 
     {
       "title": "Javascript Only Chat",
@@ -27,7 +62,8 @@ const MainCard = () => {
       "link": "https://github.com/DANdelion-0908/JavaScript-Only.git",
       "techs": [
         "techs/javascript.png",
-        "techs/css.png"
+        "techs/css.png",
+        "techs/node.png"
       ]
     },
 
@@ -38,6 +74,7 @@ const MainCard = () => {
       "link": "https://github.com/DANdelion-0908/Problema5_Parcial3.git",
       "techs": [
         "techs/python.png",
+        "techs/customtk.png"
       ]
     },
 
@@ -48,9 +85,13 @@ const MainCard = () => {
       "link": "https://github.com/chuy-zip/proyecto2_BD1.git",
       "techs": [
         "techs/javascript.png",
+        "techs/docker.png",
+        "techs/vite.png",
+        "techs/express.png",
         "techs/css.png",
         "techs/html.png",
-        "techs/postgresql.svg"
+        "techs/postgresql.svg",
+        "techs/node.png"
       ]
     },
 
@@ -60,7 +101,8 @@ const MainCard = () => {
       "image": "imgs/copython.png",
       "link": "https://github.com/chuy-zip/Proyecto_PPM_Copython.git",
       "techs": [
-        "techs/kotlin.png"
+        "techs/kotlin.png",
+        "techs/compose.png"
       ]
     }
   ]
