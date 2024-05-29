@@ -75,6 +75,8 @@ const MainCard = () => {
     <div className={`${styles.card} flex flex-col items-center justify-center min-h-screen`}>
       {<MyHero />}
 
+      <h1 className={styles.title}>Experiencia</h1>
+
       {<ExpTable />}
 
       <h1 className={styles.title}><strong>Proyectos</strong></h1>
