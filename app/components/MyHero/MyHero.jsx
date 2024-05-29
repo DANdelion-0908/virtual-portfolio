@@ -5,7 +5,7 @@ const MyHero = () => {
     <section id='info' className='pt-20'>
         <div className="hero h-auto w-[100%] bg-base-100 rounded-lg mx-auto">
         <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src="/yo.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+            <img src="yo.jpg" className="max-w-sm rounded-lg shadow-2xl" />
             <div>
             <h1 className="text-5xl font-bold">¿Quién soy?</h1>
             <p className="py-6">Me considero una persona capaz de adaptarse a diversas situaciones y con la <br />

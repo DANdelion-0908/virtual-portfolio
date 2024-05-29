@@ -3,7 +3,7 @@ import styles from './Collage.module.css'
 
 const Collage = () => {
   return (
-    <div className="hero min-h-screen" style={{backgroundImage: 'url(/imgs/background.svg)'}}>
+    <div className="hero min-h-screen" style={{backgroundImage: 'url(imgs/background.svg)'}}>
       <div className="hero-overlay bg-opacity-85"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="">
