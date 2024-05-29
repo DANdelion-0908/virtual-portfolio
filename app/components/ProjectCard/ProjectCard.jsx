@@ -6,7 +6,7 @@ const ProjectCard = ({ projects }) => {
   return (
     projects.map((project, index) => {
         return(
-          <div key={index} className={`${styles.card} card lg:card-side max-h-[500px] min-h-[400px] bg-base-100 shadow-xl mb-[5em]`}>
+          <div key={index} className={`${styles.card} card lg:card-side max-h-[500px] min-h-[450px] bg-base-100 shadow-xl mb-[5em]`}>
             <div className="card-body">
               <h2 className="card-title">{project.title}</h2>
               <p>{project.description}</p>
