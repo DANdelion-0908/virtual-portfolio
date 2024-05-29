@@ -2,6 +2,66 @@ import React from 'react'
 import styles from './MainCard.module.css'
 
 const MainCard = () => {
+
+  const projects = [
+    {
+      "title": "Genshin Excellen't",
+      "description": "Un proyecto en desarrollo que tiene como objetivo facilitar llevar el registro de lanzamientos realizados en el videojuego Genshin Impact.",
+      "image": "/imgs/Genshin_ex.png",
+      "link": "https://github.com/DANdelion-0908/genshin_excellent.git",
+      "techs": [
+        "/techs/next.png",
+        "/techs/react.png",
+        "/techs/javascript.png",
+        "/techs/css.png"
+      ]
+    },
+
+    {
+      "title": "Javascript Only Chat",
+      "description": "Un chat desarrollado únicamente con Javascript y hosteado en un servidor, lo que permite enviar y recibir mensajes con otros usuarios.",
+      "image": "/imgs/js_only.png",
+      "link": "https://github.com/DANdelion-0908/JavaScript-Only.git",
+      "techs": [
+        "/techs/javascript.png",
+        "/techs/css.png"
+      ]
+    },
+
+    {
+      "title": "Simulador de movimiento de electrones",
+      "description": "Un simulador desarrollado como solución a un problema de parcial de física. Es posible modificar el entorno y apreciar el desplazamiento de lso electrones dentro de un cable. También posee una opción con la cual se simula una caminata aleatoria realizada por un electrón. .",
+      "image": "/imgs/simulator.png",
+      "link": "https://github.com/DANdelion-0908/Problema5_Parcial3.git",
+      "techs": [
+        "/techs/python.png",
+      ]
+    },
+
+    {
+      "title": "Sabor",
+      "description": "Una aplicación web desarrollada para ser utilizada por un restaurante. Cuenta con opciones para generar reportes y facturas, abrir y cerrar cuentas, entre otras.",
+      "image": "/imgs/sabor.png",
+      "link": "https://github.com/chuy-zip/proyecto2_BD1.git",
+      "techs": [
+        "/techs/javascript.png",
+        "/techs/css.png",
+        "/techs/html.png",
+        "techs/postgresql.svg"
+      ]
+    },
+
+    {
+      "title": "Copython",
+      "description": "Una aplicación para Android que tiene como propósito enseñar a cualquier persona a programar en Python con guías, ejercicios y explicaciones..",
+      "image": "/imgs/copython.png",
+      "link": "https://github.com/chuy-zip/Proyecto_PPM_Copython.git",
+      "techs": [
+        "/techs/kotlin.png"
+      ]
+    }
+  ]
+
   return (
     <div className={`${styles.card} flex flex-col items-center justify-center min-h-screen`}>
       <section id='info' className='pt-20'>
@@ -77,35 +137,24 @@ const MainCard = () => {
 
       <h1 className={styles.title}><strong>Proyectos</strong></h1>
 
-      <div className="card lg:card-side w-[60%] bg-base-100 shadow-xl mb-[5em]">
-        <figure className='w-[100%]'><img src="/test.png" alt="Imagen del proyecto"/></figure>
-        <div className="card-body">
-          <h2 className="card-title">Genshin Excellen't</h2>
-          <p>Un proyecto en desarrollo que tiene como objetivo facilitar <br />
-          llevar el registro de lanzamientos realizados en el videojuego <br />
-          Genshin Impact. </p>
-          <div className="card-actions justify-end">
-            <a href="https://github.com/DANdelion-0908/genshin_excellent.git" target='blank'>
-              <button className="btn hover:bg-accent">Repositorio GitHub</button>
-            </a>
+      {projects.map((project, index) => {
+        return(
+          <div key={index} className="card lg:card-side w-[70%] bg-base-100 shadow-xl mb-[5em]">
+            <div className="card-body">
+              <h2 className="card-title">{project.title}</h2>
+              <p>{project.description}</p>
+              <div className="card-actions justify-end">
+                <a href={project.link} target='blank'>
+                  <button className="btn hover:bg-accent">Repositorio GitHub</button>
+                </a>
+              </div>
+            </div>
+            <figure className='w-[100%]'><img src={project.image} alt="Imagen del proyecto"/></figure>
           </div>
-        </div>
-      </div>
+        )
 
-      <div className="card lg:card-side w-[60%] bg-base-100 shadow-xl mb-[5em]">
-        <div className="card-body">
-          <h2 className="card-title">Dan's Blog</h2>
-          <p>Un blog que contiene posts con descripciones e imágenes sobre <br />
-          mis videojuegos favoritos de todos los tiempos. También agrega <br />
-          rutas específicas para administradores.</p>
-          <div className="card-actions justify-end">
-            <a href="https://github.com/DANdelion-0908/project_blog.git" target='blank'>
-              <button className="btn hover:bg-accent">Repositorio GitHub</button>
-            </a>
-          </div>
-        </div>
-        <figure className='w-[100%]'><img src="/dans_blog.png" alt="Imagen del Proyecto"/></figure>
-      </div>
+      })}
+    
     </div>
   )
 }
