@@ -6,8 +6,8 @@ const TechAvatar = ({ techs }) => {
         {techs.map((tech, index) => {
             return(
                 <div key={index} className="m-2">
-                    <div className="w-12">
-                    <img src={tech} />
+                    <div className="w-8">
+                    <img className='size-auto' src={tech} />
                     </div>
                 </div>
 

@@ -5,7 +5,7 @@ const ProjectCard = ({ projects }) => {
   return (
     projects.map((project, index) => {
         return(
-          <div key={index} className="card lg:card-side w-[70%] bg-base-100 shadow-xl mb-[5em]">
+          <div key={index} className="card lg:card-side w-[70%] max-h-[500px] min-h-[400px] bg-base-100 shadow-xl mb-[5em]">
             <div className="card-body">
               <h2 className="card-title">{project.title}</h2>
               <p>{project.description}</p>
@@ -16,7 +16,7 @@ const ProjectCard = ({ projects }) => {
                 </a>
               </div>
             </div>
-            <figure className='w-[100%]'><img src={project.image} alt="Imagen del proyecto"/></figure>
+            <figure className='w-auto object-contain'><img src={project.image} alt="Imagen del proyecto"/></figure>
           </div>
         )
       })

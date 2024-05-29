@@ -1,3 +1,15 @@
 .collage {
     width: 100%;
 }
+
+.title {
+    @media screen and (max-width: 630px) {
+        font-size: 3em;
+    }
+}
+
+.subtitle {
+    @media screen and (max-width: 630px) {
+        font-size: 2em;
+    }
+}
