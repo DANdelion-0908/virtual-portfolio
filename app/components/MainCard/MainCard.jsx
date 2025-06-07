@@ -8,22 +8,23 @@ const MainCard = () => {
 
   const projects = [
     {
-      "title": "Genshin Excellen't",
-      "description": "Un proyecto en desarrollo que tiene como objetivo facilitar llevar el registro de lanzamientos realizados en el videojuego Genshin Impact.",
-      "image": "imgs/Genshin_ex.png",
-      "link": "https://github.com/DANdelion-0908/genshin_excellent.git",
+      "title": "What the Post!?",
+      "description": "WTP es una red social desarrollada utilizando tecnologías web y presenta muchas funcionalidades como la creación de usuarios, publicaciones, reacciones a publicaciones, un CRUD, vista de publicaciones por usuario, y más.",
+      "image": "imgs/wtp.jpeg",
+      "link": "https://github.com/DANdelion-0908/wtp.git",
       "techs": [
         "techs/next.png",
         "techs/react.png",
         "techs/javascript.png",
         "techs/css.png",
-        "techs/node.png"
+        "techs/node.png",
+        "techs/mongodb.png",
       ]
     },
 
      {
       "title": "MK-Publicidad",
-      "description": "Proyecto de tienda en línea en desarrollo para una empresa que se dedida a la venta de productos y accesorios personalizados.",
+      "description": "Proyecto de tienda en línea en desarrollo para una empresa que se dedica a la venta de productos y accesorios personalizados.",
       "image": "imgs/mk.png",
       "link": "https://github.com/Diegoval-Dev/MK-Publicidad.git",
       "techs": [
