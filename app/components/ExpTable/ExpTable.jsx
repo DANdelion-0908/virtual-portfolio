@@ -42,7 +42,7 @@ const ExpTable = () => {
               <tr>
                 <th>6</th>
                 <td>Javascript</td>
-                <td><progress class="progress progress-primary w-56" value="50" max="100"></progress></td>
+                <td><progress class="progress progress-primary w-56" value="70" max="100"></progress></td>
               </tr>
               <tr>
                 <th>7</th>
@@ -88,6 +88,21 @@ const ExpTable = () => {
                 <td>15</td>
                 <td>Vite.js</td>
                 <td><progress class="progress progress-primary w-56" value="60" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>MongoDB</td>
+                <td><progress class="progress progress-primary w-56" value="50" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>Tailwind CSS</td>
+                <td><progress class="progress progress-primary w-56" value="80" max="100"></progress></td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>DaisyUI</td>
+                <td><progress class="progress progress-primary w-56" value="80" max="100"></progress></td>
               </tr>
             </tbody>
           </table>
